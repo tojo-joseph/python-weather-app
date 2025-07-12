@@ -13,3 +13,5 @@ url = f"{base_url}{current_weather_endpoint}?key={api_key}&q={location}"
 weather_data = requests.get(url)
 print(weather_data.status_code)
 print(weather_data.text)
+
+
